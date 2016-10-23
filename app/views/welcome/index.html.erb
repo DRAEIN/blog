@@ -10,7 +10,7 @@
 	</div>
 
 	<div class="col-2 homepage_content">
-	<h2>Stuff I have built</h2>
+	<h2>My Blog</h2>
 	<hr>
 
 	<% @posts.each do |post| %>
@@ -22,8 +22,14 @@
 	
 	</div>
 	<div class="col-3 homepage_content">
-	<h2>My Blog</h2>
+	<h2>My Projects</h2>
 	<hr>
+	<% @projects.each do |project| %>
+	<h3><a href="#"><%= link_to project.title, project %></a></h3>
+	<p class="date"><%= project.created_at.strftime("%A, %b, %d") %></p>
+
+
+	<% end %>
 
 	</div>
 
