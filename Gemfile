@@ -16,7 +16,7 @@ gem 'friendly_id', '~> 5.1'
 gem 'will_paginate', '~> 3.1', '>= 3.1.5'
 gem 'mail_form'
 gem 'sqlite3', '1.3.12'
-gem 'devise'
+
 
 
 
