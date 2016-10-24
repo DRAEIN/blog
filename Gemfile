@@ -15,6 +15,12 @@ gem 'pygments.rb', '~> 0.6.3'
 gem 'friendly_id', '~> 5.1'
 gem 'will_paginate', '~> 3.1', '>= 3.1.5'
 gem 'mail_form'
+gem 'sqlite3', '1.3.12'
+gem 'devise'
+
+
+
+
 
 
 
@@ -27,9 +33,9 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-group :development do
-	gem 'sqlite3'
-end
+
+	
+
 
 group :production do
 	gem 'pg';
